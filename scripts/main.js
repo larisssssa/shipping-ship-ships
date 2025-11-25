@@ -1,5 +1,6 @@
 import { DockList } from "./docks.js"
 import { HaulerList } from "./shipHaulers.js"
+import { ShippingShipsList } from "./shippingShips.js"
 
 const mainContainer = document.querySelector("#container")
 
@@ -10,13 +11,13 @@ const appHTML = `
         <h2>Docks</h2>
         ${DockList()}
     </section>
-    <section class="dept--cargo list">
+    <section class="dept--hauling list">
         <h2>Hauling Ships</h2>
         ${HaulerList()}
     </section>
-    <section class="dept--hauler list">
-        <h2>Cargo Ships</h2>
-        CARGO SHIPS
+    <section class="dept--shippingship list">
+        <h2>Shipping Ships</h2>
+        ${ShippingShipsList()}
     </section>
 </article>
 `
