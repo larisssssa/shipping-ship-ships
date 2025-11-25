@@ -1,4 +1,4 @@
-import { getDocks } from "./database.js"
+import { DockList } from "./docks.js"
 
 const mainContainer = document.querySelector("#container")
 
@@ -7,7 +7,7 @@ const appHTML = `
 <article class="dept">
     <section class="dept--docks list">
         <h2>Docks</h2>
-        ${getDocks}
+        ${DockList}
     </section>
     <section class="dept--cargo list">
         <h2>Cargo Ships</h2>
