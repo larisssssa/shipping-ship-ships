@@ -8,5 +8,5 @@ const database = {
 }
 
 export const getDocks = () => {
-    return structuredClone(docks)
+    return structuredClone(database.docks)
 }
