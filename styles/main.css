@@ -14,3 +14,10 @@ li {
     margin: 5px;
     padding: 5px;
 }
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
